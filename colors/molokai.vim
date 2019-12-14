@@ -82,7 +82,7 @@ hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#7E8E91               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
 if has("spell")
-    hi SpellBad    guibg=#FF0000 gui=undercurl
+    hi SpellBad    guibg=#FF0000 guifg=#FFFFFF gui=undercurl
     hi SpellCap    guibg=#7070F0 gui=undercurl
     hi SpellLocal  guibg=#70F0F0 gui=undercurl
     hi SpellRare   guibg=#FFFFFF gui=undercurl
